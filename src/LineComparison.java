@@ -1,4 +1,4 @@
-public class Line {
+class Line {
     private double x1, y1, x2, y2;
 
     // Constructor to initialize coordinates
