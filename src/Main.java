@@ -45,6 +45,10 @@ public class Main {
             System.out.println("Line 1 and Line 2 are equal in length.");
         }
 
+        // UC4: Using equals and compareTo
+        System.out.println("=== UC4: Additional Comparison Using equals and compareTo ===");
+        LineMethods.compareLines(line1, line2); // Updated class name used here
+
         scanner.close();
     }
 }
